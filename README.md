@@ -120,9 +120,19 @@ This is an experimental OSS baseline, not a production automation product. The b
 
 This is not the reproducible demo shipped in this repository.
 
-The image below is a sanitized showcase rendered from the private prototype's saved, human-approved software workflow. It shows the workflow's three reviewed SEEK interface nodes: a results list, a selected job detail, and the no-submit application entry. The boxes come from each node's current reviewed regions rather than an earlier recognition overlay. These reviewed interface assets are not a recording of an autonomous run and are not execution authorization.
+The screenshots below are the actual boxed evidence views saved by the private prototype's human-reviewed SEEK software workflow. They show the three learned interface states directly rather than a redraw or JSON-derived reconstruction. Personal profile details and resume filenames in the application view are redacted. These reviewed interface assets are not a recording of an autonomous run and are not execution authorization.
 
-![Reviewed learning evidence from the private SEEK prototype](docs/private-prototype-reviewed-learning-evidence.png)
+### 1. Job results
+
+![Reviewed SEEK job-results learning evidence](docs/private-prototype-seek-results.png)
+
+### 2. Job detail
+
+![Reviewed SEEK job-detail learning evidence](docs/private-prototype-seek-job-detail.png)
+
+### 3. Application entry
+
+![Reviewed SEEK application-entry learning evidence with personal information redacted](docs/private-prototype-seek-application.png)
 
 The private prototype explores OCR/UIA/VLM-based perception, advanced recognition and reranking, workflow-specific adapters, model-assisted decisions, and real Windows GUI execution. Those implementations, prompts, configurations, real-user data, website-specific integrations, and advanced heuristics are intentionally not included here.
 
