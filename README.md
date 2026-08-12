@@ -116,6 +116,20 @@ Open `http://127.0.0.1:8000`. Generate a draft, approve it, then run the gated a
 
 This is an experimental OSS baseline, not a production automation product. The bundled demo is synthetic and deterministic. It does not claim model accuracy, general GUI reliability, autonomous operation, live website compatibility, or production readiness. Advanced private recognition, reranking, model prompts, website adapters, and real-user assets are intentionally not included.
 
+## Relationship to the private prototype
+
+This is not the reproducible demo shipped in this repository.
+
+The image below is a sanitized showcase of human-corrected learning evidence from a larger private Windows GUI agent prototype. It shows three saved SEEK interface states: a results list, a selected job detail, and the no-submit application entry. These are reviewed interface assets, not a recording of an autonomous run and not execution authorization.
+
+![Reviewed learning evidence from the private SEEK prototype](docs/private-prototype-reviewed-learning-evidence.png)
+
+The private prototype explores OCR/UIA/VLM-based perception, advanced recognition and reranking, workflow-specific adapters, model-assisted decisions, and real Windows GUI execution. Those implementations, prompts, configurations, real-user data, website-specific integrations, and advanced heuristics are intentionally not included here.
+
+The public repository focuses on the reusable architectural core: reviewed interface knowledge, current-observation relocation, independent execution gating, traceability, and post-action verification. The evidence above is not a claim of accuracy, production readiness, autonomous application capability, or live safe-fill reliability.
+
+SEEK trademarks and page content belong to their respective owners and are shown only to illustrate the private prototype. These assets are not part of the reproducible OSS baseline and are not distributed as training data.
+
 ## Roadmap
 
 - Add a replaceable screenshot/OCR/UIA observation adapter.
