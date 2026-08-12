@@ -32,7 +32,7 @@ The copied `app.runtime_architecture`, `app.gate`, `modules.region`, and `module
 ## Installation
 
 ```powershell
-git clone <repository-url>
+git clone https://github.com/Desolate-Jix/windows-gui-agent-runtime.git
 cd windows-gui-agent-runtime
 py -m venv .venv
 .venv\Scripts\Activate.ps1
