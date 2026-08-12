@@ -138,6 +138,22 @@ The private prototype explores OCR/UIA/VLM-based perception, advanced recognitio
 
 The public repository focuses on the reusable architectural core: reviewed interface knowledge, current-observation relocation, independent execution gating, traceability, and post-action verification. The evidence above is not a claim of accuracy, production readiness, autonomous application capability, or live safe-fill reliability.
 
+### Learn Mode and Execute Mode
+
+The private prototype separates interface learning from real interaction. The two modes share reviewed assets, but they have different responsibilities and safety boundaries.
+
+#### Learn Mode
+
+Learn Mode observes an interface and turns visual evidence into a reusable, human-reviewable software workflow. The panel presents the workflow graph together with the selected interface's boxed evidence so a reviewer can inspect, correct, approve, and connect interface states. The resulting asset records semantic controls and transitions for later Agent reasoning; it does not authorize clicks or other real actions.
+
+![Private prototype Learn Mode showing a reviewed workflow graph and boxed interface evidence](docs/private-prototype-learn-mode.png)
+
+#### Execute Mode
+
+Execute Mode consumes reviewed workflow knowledge alongside the current observation. The Agent selects a semantic action, the locator resolves it again on the current screen, and the independent Gate checks capture freshness, target evidence, coordinates, and action risk before Operation may act. Trace records the decision and verification checks the resulting state. Learned coordinates are guidance only, and final-submit actions remain blocked by policy.
+
+![Private prototype Execute Mode showing available actions, runtime state, and the gated navigation path](docs/private-prototype-execute-mode.png)
+
 SEEK trademarks and page content belong to their respective owners and are shown only to illustrate the private prototype. These assets are not part of the reproducible OSS baseline and are not distributed as training data.
 
 ## Roadmap
