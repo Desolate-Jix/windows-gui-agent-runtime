@@ -116,6 +116,30 @@ Open `http://127.0.0.1:8000`. Generate a draft, approve it, then run the gated a
 
 This is an experimental OSS baseline, not a production automation product. The bundled demo is synthetic and deterministic. It does not claim model accuracy, general GUI reliability, autonomous operation, live website compatibility, or production readiness. Advanced private recognition, reranking, model prompts, website adapters, and real-user assets are intentionally not included.
 
+## Relationship to the private prototype
+
+**This is not the reproducible demo shipped in this repository.**
+
+This repository is the public, reproducible reference runtime derived from a larger private Windows GUI agent project.
+
+The private prototype explores the same architectural boundaries in real GUI workflows and additionally includes components such as OCR/UIA/VLM-based perception, advanced element recognition and reranking, workflow-specific adapters, model-assisted decision making, and real Windows GUI execution.
+
+Those private components, model configurations, prompts, real-user data, website-specific integrations, and advanced recognition heuristics are intentionally not included in this repository.
+
+The OSS version focuses on the reusable architectural core: reviewed interface knowledge, current-observation relocation, independent execution gating, traceability, and post-action verification.
+
+The SEEK sequence below is a **sanitized private-prototype showcase**, not the reproducible OSS demo and not a claim of accuracy, production readiness, autonomous application capability, or live safe-fill reliability.
+
+### Private prototype showcase
+
+![Sanitized private-prototype SEEK evidence sequence](docs/private-prototype-seek.gif)
+
+### Workflow overview
+
+![Sanitized reviewed workflow from job results to application entry](docs/private-prototype-workflow.png)
+
+*SEEK trademarks and page content belong to their respective owners and are shown only for illustrative demonstration of the private prototype. These assets are not part of the reproducible OSS baseline and are not distributed as training data.*
+
 ## Roadmap
 
 - Add a replaceable screenshot/OCR/UIA observation adapter.
