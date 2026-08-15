@@ -134,6 +134,20 @@ The screenshots below are the actual boxed evidence views saved by the private p
 
 ![Reviewed SEEK application-entry learning evidence with personal information redacted](docs/private-prototype-seek-application.png)
 
+### Real gated Agent recording
+
+The recording below shows two reviewed operational-memory transitions executed through the private prototype's real Agent path, not Learn Mode. Each transition used a fresh capture, current UIA grounding, a dry-run-approved plan, the gated action API, Windows `SendInput`, and post-click verification: `open_detail` moved the SEEK list to job `93615952`, then `open_apply_flow` reached the same-origin Choose documents entry.
+
+The two memory-backed transitions were sequenced for the demo. This demonstrates framework-executed actions, but does not claim autonomous end-to-end traversal of the saved workflow graph.
+
+The run stopped at Choose documents. No field fill, typing, upload, Continue/Next, or final submit/send/confirm/payment occurred.
+
+> **Privacy note:** Personal information has been removed from this public recording. The published derivative applies a fail-closed opaque mask before the first possible application-entry frame and passed a complete 160-frame review with zero unmasked pixels in the protected region. Raw recordings and the rejected first-pass derivative are not published.
+
+![Real Agent SEEK three-interface demo with personal information removed](docs/seek-three-interface-real-agent-demo.gif)
+
+The published GIF has SHA-256 `80ab0a5055d0e700f009642bd414ffdbfef1426307537dfd976c822de9d88b4f`. The recording and action traces are evidence, not authorization.
+
 The private prototype explores OCR/UIA/VLM-based perception, advanced recognition and reranking, workflow-specific adapters, model-assisted decisions, and real Windows GUI execution. Those implementations, prompts, configurations, real-user data, website-specific integrations, and advanced heuristics are intentionally not included here.
 
 The public repository focuses on the reusable architectural core: reviewed interface knowledge, current-observation relocation, independent execution gating, traceability, and post-action verification. The evidence above is not a claim of accuracy, production readiness, autonomous application capability, or live safe-fill reliability.
